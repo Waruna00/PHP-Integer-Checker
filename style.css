@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@1000&display=swap');
+body{
+    background: src('https://assets7.lottiefiles.com/packages/lf20_2m1smtya.json');
+    font-family: 'Montserrat', sans-serif;
+}
+
+#card{
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgba(240, 248, 255, 0.575);
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: .5rem .5rem 3rem rgba(56, 56, 56, 0.353);
+}
+
+#card h3,h2{
+    font-weight: 600;
+    padding: 30px;
+    text-align: center;
+}
+
+.btnn:hover{
+    color: #f0f8ff;
+    background-color: #a4a4a4;
+    
+}
+#Fcard{
+    margin: auto;
+    width: 100px;
+}
+
+.btnn{
+    background-color: aliceblue;
+    padding:10px;
+    width: 100px;
+    height: 35px;
+    text-decoration: none;
+    box-shadow: .5rem .5rem 3rem rgba(56, 56, 56, 0.353);
+    color: #282828;
+    border:1px solid #282828;
+    border-radius: 2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.txtbox{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #282828;
+}
